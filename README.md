@@ -6,3 +6,6 @@
 5. Python: Control Flow & Loops - Assessment4
 6. Python Internship: Functions, Files, and Exceptions - Assessment5
 7. OOP Basics - Assessment6
+8. OOPS Advanced - Assessment6
+9. Modules & Libraries - Assessment7
+10. Final Assessment - Assessment7
