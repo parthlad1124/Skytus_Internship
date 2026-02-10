@@ -1,0 +1,15 @@
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\bin\Debug\net8.0\StudentDetailsApp.exe
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\bin\Debug\net8.0\StudentDetailsApp.deps.json
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\bin\Debug\net8.0\StudentDetailsApp.runtimeconfig.json
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\bin\Debug\net8.0\StudentDetailsApp.dll
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\bin\Debug\net8.0\StudentDetailsApp.pdb
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.AssemblyInfoInputs.cache
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.AssemblyInfo.cs
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.csproj.CoreCompileInputs.cache
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.sourcelink.json
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.dll
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\refint\StudentDetailsApp.dll
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.pdb
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\StudentDetailsApp.genruntimeconfig.cache
+D:\Skytus_Internship\.NET\Assessment1\StudentDetailsApp\obj\Debug\net8.0\ref\StudentDetailsApp.dll
