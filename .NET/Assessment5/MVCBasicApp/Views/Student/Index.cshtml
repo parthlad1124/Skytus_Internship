@@ -1,0 +1,17 @@
+@model List<MVCBasicApp.Models.Student>
+
+<link rel="stylesheet" href="~/css/student.css" />
+
+<div class="student-page">
+    <div class="student-card">
+
+        <h2>Student List</h2>
+
+        <partial name="_StudentTable" model="Model" />
+
+<a asp-action="TopStudents" class="btn btn-success mt-3">
+    View Top Students
+</a>
+
+    </div>
+</div>

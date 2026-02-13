@@ -1,0 +1,34 @@
+@model List<MVCBasicApp.Models.Student>
+<div class="student-card">
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Course</td>
+                <td class="@(student.Marks >= 85 ? "high-marks" : "low-marks")">
+                    @student.Marks
+                </td>
+                <td>
+                    <a asp-action="Details"
+                       asp-route-id="@student.Id"
+                       class="btn btn-primary btn-sm">
+                        View Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

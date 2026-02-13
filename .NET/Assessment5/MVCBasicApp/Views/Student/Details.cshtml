@@ -1,0 +1,17 @@
+@model MVCBasicApp.Models.Student
+<link rel="stylesheet" href="~/css/student.css" />
+<div class="student-page">
+    <div class="student-card">
+<h2>Student Details</h2>
+
+<p><strong>Id:</strong> @Model.Id</p>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Course:</strong> @Model.Course</p>
+<p><strong>Marks:</strong><span class="@(Model.Marks >= 85 ? "high-marks" : "low-marks")">
+                @Model.Marks
+            </span>
+        </p>
+
+        <a asp-action="Index" class="btn btn-dark">Back</a>
+    </div>
+</div>

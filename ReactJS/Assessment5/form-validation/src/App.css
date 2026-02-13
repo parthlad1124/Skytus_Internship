@@ -1,0 +1,120 @@
+/* THEME VARIABLES */
+:root {
+  --bg-color: #f4f6f9;
+  --card-color: #ffffff;
+  --text-color: #222;
+  --input-bg: #ffffff;
+  --input-border: #ccc;
+  --button-bg: #4f46e5;
+  --button-hover: #4338ca;
+}
+
+.dark {
+  --bg-color: #111827;
+  --card-color: #1f2937;
+  --text-color: #f9fafb;
+  --input-bg: #374151;
+  --input-border: #555;
+  --button-bg: #6366f1;
+  --button-hover: #818cf8;
+}
+
+/* APP WRAPPER */
+.app-wrapper {
+  min-height: 100vh;
+  background: var(--bg-color);
+  transition: 0.3s ease;
+}
+
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px;
+}
+
+/* TOGGLE BUTTON */
+.theme-toggle {
+  background: var(--button-bg);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--button-hover);
+}
+
+/* CONTAINER */
+.container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: var(--card-color);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+label {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  color: var(--text-color);
+  transition: 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: var(--button-hover);
+}
+
+/* ERROR */
+.error {
+  color: #ef4444;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.error-input {
+  border: 2px solid #ef4444;
+}
