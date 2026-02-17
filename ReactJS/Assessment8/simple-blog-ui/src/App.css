@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #8581f7, #f8f7b1);
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #4b0082; /* deep purple */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #ff7f50; /* coral */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6347; /* tomato */
+}
+
+.blog-card {
+  border: none;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background: linear-gradient(135deg, #5565e3, #e688d9); /* blue gradient */
+  color: #fff;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.blog-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #f6d365, #fda085); /* orange gradient */
+  color: #333;
+}
+
+.blog-detail h2 {
+  color: #ff4500; /* orange-red title */
+}
+
+.blog-detail p {
+  line-height: 1.7;
+}
+.blog-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: #333;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.blog-card h3,
+.blog-card p {
+  color: #000 !important; /* force black text */
+}
+
+.blog-detail h2,
+.blog-detail p {
+  color: #000 !important; /* force black text */
+}
