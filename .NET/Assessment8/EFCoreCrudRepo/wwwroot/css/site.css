@@ -1,0 +1,72 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.table {
+    font-size: 15px;
+}
+/* ===== Modern Light Blue Theme ===== */
+
+/* Page Background */
+body {
+    background-color: #eaf6ff;   /* soft light blue */
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #2196f3, #64b5f6);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #e3f2fd !important;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(90deg, #2196f3, #64b5f6);
+    color: white;
+    padding: 15px 0;
+}
+
+/* Card Enhancement */
+.card {
+    border-radius: 12px;
+}
+
+/* Button Enhancement */
+.btn {
+    border-radius: 6px;
+}

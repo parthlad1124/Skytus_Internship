@@ -1,0 +1,282 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* Students Page Styling */
+
+.page-title {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.create-btn {
+    margin-bottom: 15px;
+}
+
+.table-container {
+    margin-top: 15px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.custom-table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f2f2f2;
+    transition: 0.3s;
+}
+
+.custom-table td,
+.custom-table th {
+    vertical-align: middle;
+}
+/* ===============================
+   GLOBAL STYLING
+=================================*/
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===============================
+   CARD DESIGN
+=================================*/
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card-header {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+/* ===============================
+   TABLE DESIGN
+=================================*/
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* Smooth row hover */
+.table-hover tbody tr:hover {
+    background-color: #eef4ff;
+    transition: 0.3s ease-in-out;
+}
+
+/* ===============================
+   BUTTON STYLING
+=================================*/
+
+.btn {
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 14px;
+}
+
+/* Edit Button */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Details Button */
+.btn-info {
+    border: none;
+}
+
+.btn-info:hover {
+    opacity: 0.9;
+}
+
+/* Delete Button */
+.btn-danger {
+    border: none;
+}
+
+.btn-danger:hover {
+    opacity: 0.9;
+}
+
+/* Add Button */
+.btn-light {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* ===============================
+   NAVBAR
+=================================*/
+
+.navbar-brand {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+
+footer {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+/* ===============================
+   GLOBAL STYLING
+=================================*/
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===============================
+   CARD DESIGN
+=================================*/
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card-header {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+/* ===============================
+   TABLE DESIGN
+=================================*/
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* Smooth row hover */
+.table-hover tbody tr:hover {
+    background-color: #eef4ff;
+    transition: 0.3s ease-in-out;
+}
+
+/* ===============================
+   BUTTON STYLING
+=================================*/
+
+.btn {
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 14px;
+}
+
+/* Edit Button */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Details Button */
+.btn-info {
+    border: none;
+}
+
+.btn-info:hover {
+    opacity: 0.9;
+}
+
+/* Delete Button */
+.btn-danger {
+    border: none;
+}
+
+.btn-danger:hover {
+    opacity: 0.9;
+}
+
+/* Add Button */
+.btn-light {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* ===============================
+   NAVBAR
+=================================*/
+
+.navbar-brand {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+
+footer {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
