@@ -3,6 +3,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
+builder.Services.AddControllers();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IAppService, AppService>();
 
@@ -35,6 +37,7 @@ app.MapGet("/", () =>
         "text/html"
     );
 });
+app.MapControllers();
 
 
 app.Run();
