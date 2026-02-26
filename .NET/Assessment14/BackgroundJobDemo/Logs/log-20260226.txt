@@ -1,0 +1,22 @@
+2026-02-26 12:51:35.079 +05:30 [INF] Notification Background Service Started.
+2026-02-26 12:51:35.107 +05:30 [INF] Background Job Triggered at: "2026-02-26T07:21:35.1042997Z"
+2026-02-26 12:51:35.170 +05:30 [INF] Now listening on: http://localhost:5012
+2026-02-26 12:51:35.171 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-26 12:51:35.172 +05:30 [INF] Hosting environment: Development
+2026-02-26 12:51:35.172 +05:30 [INF] Content root path: D:\Skytus_Internship\.NET\Assessment14\BackgroundJobDemo
+2026-02-26 12:51:38.663 +05:30 [INF] Email sent successfully at "2026-02-26T07:21:38.6636687Z"
+2026-02-26 12:51:38.664 +05:30 [INF] SMS sent to +919999999999: Background job executed at 26-02-2026 12:51:38 PM
+2026-02-26 12:51:38.667 +05:30 [INF] SMS sent successfully at "2026-02-26T07:21:38.6671172Z"
+2026-02-26 12:51:38.667 +05:30 [INF] Background Job Completed in 3563.4252 ms
+2026-02-26 12:51:46.479 +05:30 [INF] Application is shutting down...
+2026-02-26 12:56:25.028 +05:30 [INF] Notification Background Service Started.
+2026-02-26 12:56:25.055 +05:30 [INF] Background Job Triggered at: "2026-02-26T07:26:25.0520927Z"
+2026-02-26 12:56:25.058 +05:30 [INF] Now listening on: http://localhost:5012
+2026-02-26 12:56:25.059 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-26 12:56:25.060 +05:30 [INF] Hosting environment: Development
+2026-02-26 12:56:25.060 +05:30 [INF] Content root path: D:\Skytus_Internship\.NET\Assessment14\BackgroundJobDemo
+2026-02-26 12:56:28.629 +05:30 [INF] Email sent successfully at "2026-02-26T07:26:28.6296631Z"
+2026-02-26 12:56:28.631 +05:30 [INF] SMS sent to +919999999999: Background job executed at 26-02-2026 12:56:28 PM
+2026-02-26 12:56:28.631 +05:30 [INF] SMS sent successfully at "2026-02-26T07:26:28.6315202Z"
+2026-02-26 12:56:28.631 +05:30 [INF] Background Job Completed in 3579.7988 ms
+2026-02-26 12:56:34.556 +05:30 [INF] Application is shutting down...
