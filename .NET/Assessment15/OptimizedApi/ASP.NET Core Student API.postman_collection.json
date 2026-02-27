@@ -1,0 +1,137 @@
+{
+  "info": {
+    "_postman_id": "0236f5fc-8ef9-4632-bc78-5c0eb1053ab5",
+    "name": "ASP.NET Core Student API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52484325",
+    "_collection_link": "https://go.postman.co/collection/52484325-0236f5fc-8ef9-4632-bc78-5c0eb1053ab5?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get All Students",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Origin",
+            "value": "http://malicious-site.com",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5218/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5218",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "content-type",
+              "value": null,
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "add data",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\":\"Moblie\",\r\n    \"price\":9000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5218/api/Products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5218",
+          "path": [
+            "api",
+            "Products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete data",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Origin",
+            "value": "http://localhost:5218",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\":6,\r\n    \"name\":\"Iphone-17\",\r\n    \"price\":75000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5218/api/products/6",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5218",
+          "path": [
+            "api",
+            "products",
+            "6"
+          ],
+          "query": [
+            {
+              "key": "content-type",
+              "value": null,
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}

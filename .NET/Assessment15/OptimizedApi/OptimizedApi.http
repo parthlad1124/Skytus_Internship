@@ -1,0 +1,6 @@
+@OptimizedApi_HostAddress = http://localhost:5218
+
+GET {{OptimizedApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
